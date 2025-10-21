@@ -11,7 +11,7 @@
 
 <br>
 
-![screenshot](https://github.com/GregSithole/gregsithole-react-portfolio/raw/master/src/assets/screenshot.png)
+![screenshot](https://github.com/salman-nstu/Portfolio/blob/main/src/assets/screenshot.png)
 
 ## How To Use
 
