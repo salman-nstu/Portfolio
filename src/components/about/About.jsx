@@ -26,12 +26,12 @@ const About = () => {
                             Here are the technologies I've been working with:
                         </p>
                         <ul className="about__list">
-                            <li>C / C++</li>
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>HTML / CSS</li>
-                            <li>JavaScript</li>
-                            <li>IoT Systems</li>
+                            <li><strong>Languages:</strong> Java, C++, JavaScript, Python</li>
+                            <li><strong>Frontend:</strong> React, Angular, HTML, CSS</li>
+                            <li><strong>Backend:</strong> Spring Boot, Node.js, Express.js</li>
+                            <li><strong>Databases:</strong> MySQL, MongoDB</li>
+                            <li><strong>Tools:</strong> Git, GitHub, Firebase, Docker, Linux</li>
+                            <li><strong>Core Areas:</strong> Full Stack Development, Competitive Programming, IoT</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>

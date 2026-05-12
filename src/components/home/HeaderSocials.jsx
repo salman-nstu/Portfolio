@@ -1,32 +1,24 @@
 import React from 'react';
-import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter, FaDev } from 'react-icons/fa';
-import { SiHashnode } from 'react-icons/si'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { SiCodeforces, SiLeetcode } from 'react-icons/si'
 
 const HeaderSocials = () => {
     return (
         <div className='home__socials'>
-            <a href='https://github.com/salman-nstu' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/salman-nstu' className='home__social-link' target='_blank' rel='noreferrer' title="GitHub">
                 <FaGithub />
             </a>
 
-            <a href='https://www.linkedin.com/in/mrsksalman' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://www.linkedin.com/in/mrsksalman' className='home__social-link' target='_blank' rel='noreferrer' title="LinkedIn">
                 <FaLinkedinIn />
             </a>
 
-            <a href='https://www.facebook.com/' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaFacebookF />
+            <a href='https://codeforces.com/profile/CodeWarriorSK' className='home__social-link' target='_blank' rel='noreferrer' title="Codeforces">
+                <SiCodeforces />
             </a>
 
-            <a href='https://www.twitter.com/' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaTwitter />
-            </a>
-
-            <a href='https://dev.to/' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaDev />
-            </a>
-
-            <a href='https://hashnode.com/' className='home__social-link' target='_blank' rel='noreferrer'>
-                <SiHashnode />
+            <a href='https://leetcode.com/warrior-salman' className='home__social-link' target='_blank' rel='noreferrer' title="LeetCode">
+                <SiLeetcode />
             </a>
         </div>
     );

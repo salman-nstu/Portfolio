@@ -8,23 +8,44 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "Java Software Development",
+        title: "Full-Stack Web Development",
         description:
-            "Building desktop applications and backend systems using Java with focus on clean code and OOP principles",
+            "Building scalable web applications using React, Angular, Node.js, and Spring Boot with modern design patterns and responsive UI/UX",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Backend & API Development",
         description:
-            "Creating responsive and user-friendly websites using HTML, CSS, and JavaScript with modern design practices",
+            "Designing REST APIs, implementing business logic, and building robust backend systems using Spring Boot, Node.js, and MongoDB/MySQL",
     },
     {
         id: 3,
         image: Image3,
-        title: "IoT System Prototyping",
+        title: "IoT & Smart Systems",
         description:
-            "Developing smart IoT solutions for automation and monitoring, integrating sensors with intelligent systems",
+            "Developing IoT-enabled solutions for smart farming, environmental monitoring, and automation using embedded systems and sensor integration",
+    },
+    {
+        id: 4,
+        image: Image1,
+        title: "Desktop Applications",
+        description:
+            "Creating interactive desktop applications using Java Swing with algorithms, data structures, and complex system design",
+    },
+    {
+        id: 5,
+        image: Image2,
+        title: "AI & Machine Learning",
+        description:
+            "Integrating AI solutions using OpenAI APIs, speech-to-text transcription, and intelligent data processing with Flask and Python",
+    },
+    {
+        id: 6,
+        image: Image3,
+        title: "Systems & Security",
+        description:
+            "Building secure systems with encryption, authentication, memory management, and production-quality code with comprehensive testing",
     },
 ];
 
