@@ -4,7 +4,7 @@ import { SiCodeforces, SiLeetcode } from 'react-icons/si'
 
 const HeaderSocials = () => {
     return (
-        <div className='home__socials'>
+        <div className='home__socials' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '15px'}}>
             <a href='https://github.com/salman-nstu' className='home__social-link' target='_blank' rel='noreferrer' title="GitHub">
                 <FaGithub />
             </a>
